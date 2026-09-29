@@ -1,0 +1,101 @@
+TENDER FOR SUPPLY, INSTALLATION AND COMMISSIONING OF INDUSTRIAL ELECTRICAL CONTROL PANEL
+
+Tender Reference No: SISAP/DEMO/CP-2026/01
+Issuing Authority: Procurement Division, State Public Works Department (demonstration document)
+
+1. SCOPE OF SUPPLY
+
+1.1 The scope of this tender covers design, manufacture, supply, installation, testing and
+commissioning of a floor mounted industrial electrical control panel for a 415 V, 50 Hz, three
+phase power distribution and motor control application.
+
+1.2 The control panel shall be suitable for indoor industrial installation and shall house
+incoming switchgear, outgoing feeders, busbars, protective devices and a control section.
+
+1.3 The purchaser reserves the right to inspect the panel at the manufacturer's works before
+dispatch.
+
+2. TECHNICAL SPECIFICATION
+
+2.1 The control panel shall be a low voltage switchgear and controlgear assembly rated for a
+system voltage of 415 V, 50 Hz and a busbar current rating of not less than 800 A.
+
+2.2 The panel shall be designed for a short circuit withstand strength of 50 kA for one second.
+
+2.3 The enclosure shall be fabricated from sheet steel of not less than 2 mm thickness and shall
+be provided with a degree of protection of IP54 for indoor use. The enclosure finish shall be
+powder coated after phosphate pretreatment.
+
+2.4 Busbars shall be of aluminium or copper and shall be adequately supported to withstand the
+short circuit forces. Creepage distances and clearances shall be maintained in accordance with
+the applicable standard for the degree of pollution expected.
+
+2.5 Temperature rise limits of all current carrying parts shall be within the limits specified
+for the applicable class of equipment.
+
+2.6 The panel shall be provided with an earthing busbar of adequate cross section, and all
+metallic parts of the enclosure shall be bonded to the earthing system.
+
+2.7 The ambient conditions at site are: temperature range 5 degrees C to 45 degrees C, relative
+humidity up to 95 percent, and altitude below 1000 m above mean sea level.
+
+3. PROTECTIVE DEVICES
+
+3.1 The incoming feeder shall be provided with a moulded case circuit breaker or a switch fuse
+unit of suitable breaking capacity.
+
+3.2 Outgoing feeders shall be protected by miniature circuit breakers with suitable current
+ratings and tripping characteristics.
+
+3.3 All protective devices shall have a rated short circuit capacity adequate for the fault level
+at the point of installation.
+
+4. SAFETY REQUIREMENTS
+
+4.1 The control panel shall provide protection against direct contact and indirect contact in
+accordance with the applicable code of practice for electrical installations.
+
+4.2 All doors and covers shall be interlocked or provided with means of preventing inadvertent
+contact with live parts.
+
+4.3 Earthing shall be provided in accordance with the applicable code of practice for earthing,
+and earth continuity shall be verified before energisation.
+
+4.4 The panel shall be installed with adequate ventilation clearance and shall not obstruct
+access for maintenance.
+
+5. TESTING AND INSPECTION
+
+5.1 All routine tests shall be carried out at the manufacturer's works and test certificates
+shall be furnished.
+
+5.2 Type test reports for the assembly shall be made available for scrutiny on request.
+
+5.3 A high voltage test and an insulation resistance test shall be performed before the panel is
+energised at site.
+
+6. INSTALLATION AND COMMISSIONING
+
+6.1 The panel shall be installed on a foundation suitable for the equipment, with cable entry
+from the bottom unless otherwise agreed.
+
+6.2 Cable glands, lugs and terminations shall be provided by the supplier.
+
+6.3 The installation shall be carried out in accordance with the applicable code of practice for
+electrical wiring installations.
+
+7. DRAWINGS AND DOCUMENTATION
+
+7.1 The supplier shall furnish dimensional drawings, schematic diagrams and a general
+arrangement drawing showing clearances for approval before manufacture.
+
+7.2 As built drawings and an operation and maintenance manual shall be supplied on completion.
+
+8. WARRANTY
+
+8.1 The control panel shall be warranted against defects in material and workmanship for a
+period of 24 months from the date of commissioning.
+
+Note for evaluators: this is a demonstration tender prepared for SISAP. It intentionally omits
+certain clauses (for example a stated certification requirement) so that the specification gap
+detector has something to report.

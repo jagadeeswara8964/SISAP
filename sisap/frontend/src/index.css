@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ theme */
+@theme {
+  --color-navy-50: #f2f6fa;
+  --color-navy-100: #e3ebf3;
+  --color-navy-200: #c4d5e6;
+  --color-navy-300: #94b2d0;
+  --color-navy-400: #5e87b0;
+  --color-navy-500: #3a6793;
+  --color-navy-600: #28507a;
+  --color-navy-700: #1f4063;
+  --color-navy-800: #172f4a;
+  --color-navy-900: #0f2a47;
+  --color-navy-950: #091b30;
+
+  --color-gov-50: #eef5fb;
+  --color-gov-100: #d9e8f6;
+  --color-gov-200: #b4d1ed;
+  --color-gov-300: #83b2df;
+  --color-gov-400: #4e8dcb;
+  --color-gov-500: #2f72b4;
+  --color-gov-600: #1b4f8a;
+  --color-gov-700: #17406f;
+  --color-gov-800: #15375c;
+  --color-gov-900: #142f4d;
+
+  --color-ink-50: #f7f8f9;
+  --color-ink-100: #eef0f3;
+  --color-ink-200: #dde1e7;
+  --color-ink-300: #c2c9d2;
+  --color-ink-400: #97a1ae;
+  --color-ink-500: #74808e;
+  --color-ink-600: #5b6570;
+  --color-ink-700: #47505a;
+  --color-ink-800: #333b45;
+  --color-ink-900: #1b2430;
+
+  --color-ok-50: #eaf6ef;
+  --color-ok-100: #d3ecdd;
+  --color-ok-500: #1f7a4d;
+  --color-ok-600: #196742;
+  --color-ok-700: #145434;
+
+  --color-warn-50: #fdf5e7;
+  --color-warn-100: #f9e8c8;
+  --color-warn-500: #b4690e;
+  --color-warn-600: #96570b;
+  --color-warn-700: #78460a;
+
+  --color-crit-50: #fdecec;
+  --color-crit-100: #fad5d5;
+  --color-crit-500: #a32020;
+  --color-crit-600: #8a1b1b;
+  --color-crit-700: #6f1616;
+
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+}
+
+/* ------------------------------------------------------------------- base */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-ink-50 text-ink-900 font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-gov-600;
+  }
+
+  /* Accessible skip link */
+  .skip-link {
+    @apply absolute -left-[9999px] z-50 rounded bg-navy-900 px-4 py-2 text-white;
+  }
+  .skip-link:focus {
+    @apply left-2 top-2;
+  }
+}
+
+/* ------------------------------------------------------------- components */
+@layer components {
+  .sisap-card {
+    @apply rounded border border-ink-200 bg-white;
+  }
+
+  .sisap-table {
+    @apply w-full border-collapse text-sm;
+  }
+
+  .sisap-table thead th {
+    @apply border-b border-ink-200 bg-navy-900 px-3 py-2.5 text-left text-xs font-semibold tracking-wide text-white uppercase;
+  }
+
+  .sisap-table tbody td {
+    @apply border-b border-ink-100 px-3 py-2.5 align-top;
+  }
+
+  .sisap-table tbody tr:nth-child(even) {
+    @apply bg-ink-50/60;
+  }
+
+  .sisap-table tbody tr:hover {
+    @apply bg-gov-50;
+  }
+
+  /* Print-friendly reports */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+  }
+}
+
+/* Skeleton shimmer */
+@keyframes sisap-shimmer {
+  0% {
+    background-position: -400px 0;
+  }
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+.sisap-skeleton {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-ink-100) 0%,
+    var(--color-ink-200) 40%,
+    var(--color-ink-100) 80%
+  );
+  background-size: 800px 100%;
+  animation: sisap-shimmer 1.4s ease-in-out infinite;
+  @apply rounded;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sisap-skeleton {
+    animation: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
